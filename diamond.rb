@@ -1,5 +1,5 @@
 
-equire 'minitest/autorun'
+require 'minitest/autorun'
 
 # code here
 class Diamond
