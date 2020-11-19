@@ -1,4 +1,3 @@
-# code here
 class Diamond
   
   def self.make_diamond(str)
