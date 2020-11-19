@@ -43,15 +43,11 @@ class DiamondTest < Minitest::Test
     answer = Diamond.make_diamond('A')
     assert_equal("A\n", answer)
   end
-
-  def test_letter_b
+  
     # -A-
     # B-B
     # -A-
-    answer = Diamond.make_diamond('B')
     string = " A \nB B\n A \n"
-    assert_equal string, answer
-  end
  
   def test_letter_c
     # --A--
