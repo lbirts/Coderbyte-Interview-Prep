@@ -1,6 +1,3 @@
-
-require 'minitest/autorun'
-
 # code here
 class Diamond
   
